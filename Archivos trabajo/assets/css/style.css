@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background-color: #498B8E;
+	height: 200px;
+	width: 100vw;
+	z-index: 5;
+}
+
+
+.chatbox{
+	z-index: 1000;
+	background-color: whitesmoke;
+	padding: 0px;
+}
+
+.titles{
+	margin-bottom: 0px;
+}
+
+.contactos-title{
+	background-color: whitesmoke;
+	border-right: 1px solid #999F98;
+	border-bottom: 1px solid #999F98;
+	height: 70px;
+	width: 100vw;
+}
+
+.conversaciones-title{
+	background-color: whitesmoke;
+	height: 70px;
+	width: 100vw;
+	border-bottom: 1px solid #999F98;
+}
+
+.contactos{
+	background-color: white;
+	height: 78vh;
+	width: 100vw;
+	padding: 5px;
+}
+
+.conversaciones{
+	background-image: url(../../../Desafio/image/chat-panel-bg.png);
+	background-attachment: fixed;
+	width: 100vw;
+	padding: 30px;
+}
+
+img{
+	border-radius: 100px;
+    height: 65px;
+}
+
+.left.circle{
+	height: 60px;
+    margin-top: 4px;
+}
+
+.inputbuscar{
+	border-bottom: 1px solid #5C605F;
+}
+
+#inputbuscar2{
+	width: 250px;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.conversacionhecha{
+	background-color: white;
+	border-radius: 5px;
+}
+
+.holacomotitle{
+	color: green;
+}
+
+.respuestashechas{
+	border-radius: 5px;
+}
+
+.respuestasintegradas{
+	
+	height: 330px;
+}
+
+.answer{
+	background-color: #CFFFBE;
+	border-radius: 5px;
+	margin: 20px;
+	height: 50px;
+}
+
+.minombre{
+	color: #D140A6;
+}
+
+.inputchat{
+	background-color: whitesmoke;
+	border: 1px solid #5C605F;
+	position: fixed;
+	width: 47vw;
+}
+
+.chat{
+	padding: 10px;
+}
+
+.conversaciones2{
+	display: none;
+}
+
+.inputescribir{
+	z-index: 1000;
+}
+
+#respuestas{
+	width: 550px;
+    background-color: white;
+    margin-left: 20px;
+}
